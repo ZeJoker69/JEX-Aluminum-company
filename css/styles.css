@@ -65,8 +65,8 @@ p { color: var(--text-muted); line-height: 1.75; }
    NAVBAR
    ============================================ */
 .logo{
-  width: 24%;
-  padding: 10px 0px;
+  width: 20%;
+  margin-top: 8px;
 }
 
 .navbar {
@@ -194,7 +194,9 @@ p { color: var(--text-muted); line-height: 1.75; }
 @media (max-width: 960px) {
   .navbar {
     padding: 0 24px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
     height: auto;
     min-height: 72px;
     /* navbar itself must sit above everything */
