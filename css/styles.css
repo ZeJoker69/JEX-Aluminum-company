@@ -66,7 +66,7 @@ p { color: var(--text-muted); line-height: 1.75; }
    ============================================ */
 .logo{
   width: 24%;
-  padding: 10px;
+  padding: 10px 0px;
 }
 
 .navbar {
